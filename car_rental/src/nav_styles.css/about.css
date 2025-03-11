@@ -1,0 +1,22 @@
+.AboutUs{
+    width:100%;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/header-3.jpg) ;
+    background-position: center;
+    background-size:cover;
+    position: relative;  
+    
+}
+
+.heading{
+    color:white;
+    font-size: 24px;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p{
+    color:white;
+    text-align:center;
+}

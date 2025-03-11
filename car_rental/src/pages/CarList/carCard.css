@@ -1,0 +1,92 @@
+
+
+/* Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 equal columns */
+    gap: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 7xl;
+    padding: 2rem;
+  }
+  
+  /* Individual Component */
+  .card {
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .card-content h1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .card-content p {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .card-content .tags {
+    margin-top: 2rem;
+  }
+  
+  .card-content .tags span {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.625rem;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 0.25rem;
+  }
+  
+  .card-content .colors {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-content .colors span {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .card-content .size {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-content .size span {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.125rem 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-right: 1rem;
+  }
+  
+  .card-content {
+    margin-top: 2rem;
+  }
+  
+  /* Customize other CSS as needed */
+  
+  

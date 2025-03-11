@@ -1,0 +1,229 @@
+/* Reset styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    
+    min-height: 100px;
+    background: linear-gradient(100deg, orange 60%, orangered 42%);
+  }
+ 
+
+  
+  /* Form styles */
+  .container form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Row and column styles for layout */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .col {
+    flex: 1 1 250px;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  /* Input box styles */
+  .inputBox {
+    margin-bottom: 15px;
+    color:#000
+  }
+  
+  .inputBox span {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #000;
+  }
+  
+  .inputBox input:focus {
+    border: 1px solid #000;
+  }
+  
+  /* Month and year input styles */
+  .month {
+    width: 30%;
+  }
+  
+  .year {
+    width: 50%;
+    margin-left: 10px;
+  }
+  
+  /* Flex container styles */
+  .flex {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  /* Additional styling for images inside input boxes */
+  .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  /* Submit button styles */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: orangered;
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: orangered;
+  }
+  
+  /* Payment container styles */
+  .payment-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightblue;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form styles inside the payment container */
+  .payment-container form {
+    margin-top: 20px;
+  }
+  
+  /* Styling for input, select, and button inside the payment container */
+  input,
+  select,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Additional styling for the container */
+  .contain {
+    box-sizing: 20px;
+    box-shadow: #333;
+  }
+  
+  /* Styling for the button inside the payment container */
+  .payment-container button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Styling for the payment methods section */
+  .payment-methods {
+    margin-top: 20px;
+    align-items: last baseline;
+  }
+  
+  /* Styling for payment method images */
+  .payment-methods img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  /* Styling for the Net Banking section */
+  
+  .netbanking-details select {
+    width: 100%;
+  }
+  
+  /* Styling for the Submit button */
+  .payment-container .submit-btn {
+    background: #007BFF;
+  }
+  
+  /* Styling for the payment container */
+  .payment-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Styling for h1 inside payment container */
+  .payment-container h1 {
+    font-size: 20px;
+  }
+  
+  /* Styling for input fields and select in Net Banking section */
+  .payment-container input,
+  .payment-container select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .state{
+    color:#000;
+  }
+  #payment-method{
+    color:#000;
+  }
+  .card_expiration_month{
+    color:black;
+  }
+  .payment{
+    color:black;
+  }
+  .netbank{
+    color:#000;
+  }
+  .upi{
+    color:#000;
+  }
+  .carName,.price{
+    margin:10px 10px;
+  }

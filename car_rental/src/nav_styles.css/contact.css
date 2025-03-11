@@ -1,0 +1,24 @@
+.ContactUs{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/car-1.jpg) ;
+    background-position: center;
+    background-size:cover;
+    position: relative; 
+}
+
+.headingDiv{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align:center;
+    
+}
+.heading{
+    color:white;
+    font-size: 24px;
+}
+
+.Office{
+    color:white;
+    text-align:center;
+}
